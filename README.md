@@ -64,3 +64,85 @@ The analysis aims to uncover:
 This project demonstrates how **data analytics techniques can transform raw sales data into actionable insights**, enabling businesses to improve profitability and make data-driven strategic decisions.
 
 ---
+
+## 🎯 Project Objectives
+
+### 1. Data Cleaning & Preparation
+- Remove duplicates, handle missing values, and fix incorrect data types.
+- Create new business fields such as:
+  - `profit_margin`
+  - `ship_delay_days`
+  - `discount_bucket`
+
+---
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyze trends in **sales and profit over time**.
+- Identify **top and bottom performing products, categories, and regions**.
+- Measure the **impact of discounts and shipping modes on profitability**.
+
+---
+
+### 3. SQL Analysis
+- Load the cleaned dataset into **MySQL**.
+- Run analytical queries to answer key business questions such as:
+  - Top customers
+  - Negative-profit states
+  - High discount regions
+
+---
+
+### 4. Dashboard Creation (Power BI)
+Build an **interactive Power BI dashboard** including:
+- Key Performance Indicators (KPIs)
+- Sales & profit trends
+- Product and region breakdowns
+- Discount analysis
+
+---
+
+### 5. Business Insights & Recommendations
+Provide **actionable recommendations** for:
+- Pricing strategy
+- Shipping optimization
+- Customer targeting
+
+---
+
+# ❓ Key Business Questions to Answer
+
+## 1. Sales & Trends
+- How are **sales and profits trending over time** (monthly/yearly)?
+- Are there any **seasonal patterns or months with unusually low profit margins**?
+
+---
+
+## 2. Regional & State Performance
+- Which **regions or states are the most profitable**?
+- Are there **regions or states with high sales but negative profit**?
+
+---
+
+## 3. Product & Category Analysis
+- Which **product categories and sub-categories contribute the most profit**?
+- Which **products or sub-categories consistently result in losses**?
+
+---
+
+## 4. Customer Insights
+- Who are the **top customers by sales and profit**?
+- Is the business **overly dependent on a small group of customers (concentration risk)**?
+
+---
+
+## 5. Discount & Pricing Strategy
+- What is the **relationship between discounts and profitability**?
+- Do **high discounts (>30%) usually lead to losses**?
+
+---
+
+## 6. Shipping & Operations
+- How do **different shipping modes affect profit and delivery time**?
+- Are **longer shipping delays associated with lower profitability**?
+
+---
